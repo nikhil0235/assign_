@@ -179,7 +179,10 @@ for (let i = 1; i !== totalPages + 1; i++) {
           ))}
         </tbody>
       </table>
-      <div>
+      <div>{selectedRows.length} rows selected of {allusers.length}</div>
+      <div >
+
+        
   <img
     src={home}
     style={{
@@ -243,4 +246,3 @@ for (let i = 1; i !== totalPages + 1; i++) {
 };
 
 export default AdminDashboard;
-

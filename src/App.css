@@ -79,7 +79,6 @@ div {
 span {
   margin: 0 10px;
 }
-
 /* Responsive styles */
 @media (max-width: 600px) {
   th, td {
